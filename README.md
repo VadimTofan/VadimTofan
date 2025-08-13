@@ -6,6 +6,6 @@ I’m a web developer finishing my studies at HackYourFuture, building functiona
 Tech Stack: HTML, CSS, JavaScript, React, Node.js, Express.js, MySQL, Git
 
 📧 vad.tofan@gmail.com
-💼 [your LinkedIn here](https://www.linkedin.com/in/vadim-tofan-6871b31b3/)
+💼 [LinkedIn](https://www.linkedin.com/in/vadim-tofan-6871b31b3/)
 
 🐱 Code reviewed by Goose the cat
