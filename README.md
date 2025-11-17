@@ -1,9 +1,12 @@
 👋 Hi, I'm Vadim
 💻 Full-Stack Software Engineer | ⚡ JavaScirpt • TypeScript • React • Angular • Node.js
 
-I’m a web developer finishing my studies at HackYourFuture, building functional, user-friendly applications. Skilled in React, Node.js, and SQL, I enjoy creating projects that solve real problems and improve everyday life.
+I’m a Junior Full-Stack Software Engineer, recently finished my studies at HackYourFuture, building functional, user-friendly applications. 
+Mainly skilled in JavaScript / TypeScript frameworks for both front and back end.
 
-Tech Stack: HTML, CSS, JavaScript, React, Node.js, Express.js, MySQL, Git
+I enjoy creating projects that solve real problems and improve everyday life.
+
+Tech Stack: JavaScript, React, Node.js, Angular, Express.js, HTML, CSS, MySQL, Git, Scrum, Agile
 
 📧 vad.tofan@gmail.com
 💼 [LinkedIn](https://www.linkedin.com/in/vadim-tofan-6871b31b3/)
