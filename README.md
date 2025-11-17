@@ -1,5 +1,5 @@
 👋 Hi, I'm Vadim
-💻 Web Developer | ⚡ React • Node.js • SQL
+💻 Full-Stack Software Engineer | ⚡ JavaScirpt • TypeScript • React • Angular • Node.js
 
 I’m a web developer finishing my studies at HackYourFuture, building functional, user-friendly applications. Skilled in React, Node.js, and SQL, I enjoy creating projects that solve real problems and improve everyday life.
 
