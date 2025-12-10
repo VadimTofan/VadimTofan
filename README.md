@@ -12,4 +12,5 @@ Tech Stack: JavaScript, React, Node.js, Angular, Express.js, HTML, CSS, MySQL, G
 💼 [LinkedIn](https://www.linkedin.com/in/vadim-tofan-6871b31b3/)
 
 🐱 Code reviewed by Goose the cat
-![1](https://github.com/user-attachments/assets/6c1bd4a9-0e45-4481-917f-4e4cb33b45f4)
+
+<img src="https://github.com/user-attachments/assets/6c1bd4a9-0e45-4481-917f-4e4cb33b45f4" width="300" height="200">
