@@ -8,11 +8,11 @@ I completed the **HackYourFuture Denmark** full-stack web development program an
 
 ## What I work with
 
-- Frontend: `React`, `Angular`, `TypeScript`, `JavaScript`, `HTML`, `CSS`, `SCSS`
+- Frontend: `React`, `Angular`, `Vue`, `TypeScript`, `JavaScript`, `HTML`, `CSS`, `SCSS`
 - Backend: `Node.js`, `Nest.js`, `Express`, `REST APIs`
 - Data: `SQL`
 - Tools: `Git`, `GitHub`, `CI/CD workflows`
-- AI workflows: `Claude`, `ChatGPT`, prompt-driven development, agentic workflows
+- AI workflows: `Claude`, `Codex`, prompt-driven development, agentic workflows
 
 ## Selected projects
 
@@ -45,11 +45,6 @@ Live: https://imperfectdeals-frontend.vercel.app/en
 - Building better frontend experiences
 - Applying AI tools responsibly in real development workflows
 
-## Open to
-
-- Junior Full-Stack Developer roles
-- Frontend-focused full-stack roles
-- Product engineering opportunities in Copenhagen or remote within the EU
 
 ## Contact
 
