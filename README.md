@@ -1,60 +1,57 @@
 # Hi, I'm Vadim Tofan
 
-Full-stack developer focused on building practical, user-facing products with clean implementation, strong ownership, and a fast learning mindset.
+Software Developer based in Copenhagen, currently working full-time at
+**BRIGHT–DTU**. I work across Vue.js front ends and Python back ends, with a
+focus on practical products, maintainable code, and reliable delivery.
 
-I work mainly with **TypeScript, JavaScript, React, Angular, Node.js, Nest.js, SQL, and REST APIs**, and I actively use **AI-assisted development workflows** to improve speed, debugging, and iteration quality.
+## Current work
 
-I completed the **HackYourFuture Denmark** full-stack web development program and now continue building production-facing and portfolio projects while growing into my first long-term software engineering role.
+Since July 2026, I have worked with **Vue.js**, **Python**, and **Tailwind CSS**
+at BRIGHT–DTU. My work also includes CI/CD workflows, automated testing, and
+maintaining test coverage.
 
-## What I work with
+The work is covered by an NDA, so project and product details remain private.
 
-- Frontend: `React`, `Angular`, `Vue`, `TypeScript`, `JavaScript`, `HTML`, `CSS`, `SCSS`
-- Backend: `Node.js`, `Nest.js`, `Express`, `REST APIs`
-- Data: `SQL`
-- Tools: `Git`, `GitHub`, `CI/CD workflows`
-- AI workflows: `Claude`, `Codex`, prompt-driven development, agentic workflows
+## Core stack
 
-## Selected projects
+- Front end: `Vue.js`, `Tailwind CSS`, `JavaScript`, `React`, `Next.js`
+- Back end: `Python`, `Node.js`, `Express`, `REST APIs`
+- Data: `MySQL`, `SQL`
+- Delivery: `Git`, `GitHub`, `CI/CD`, automated testing, test coverage
+
+## Selected work
 
 ### Meal Sharing App
-Full-stack application with authentication, booking flows, API routes, and SQL-backed persistence.  
-Tech: `React`, `Node.js`, `Express`, `SQL`  
-Live: https://mealsharing-vadim.netlify.app/
 
-### Pet Pass
-Team-based full-stack project delivered in an agile workflow with shared ownership, debugging, and release improvements.  
-Tech: `React`, `Node.js`, `SQL`  
-Live: https://petpass404.netlify.app/
+A full-stack platform for listing meals and managing bookings.
 
-### Imperfect Deals Frontend
-Production-facing frontend contribution with user-facing improvements, troubleshooting, and release-minded iteration.  
-Live: https://imperfectdeals-frontend.vercel.app/en
+- Stack: `Next.js`, `React`, `Node.js`, `Express`, `MySQL`
+- Live: https://mealsharing-vadim.netlify.app/
 
-## What matters to me
+### PetPass
 
-- Building software that solves real problems
-- Understanding systems end-to-end, not just the UI layer
-- Writing code that is maintainable, testable, and clear
-- Moving fast without lowering quality
-- Continuously improving through feedback, practice, and curiosity
+A product-style web application for pet profiles, authentication, and account
+management.
 
-## Current focus
+- Stack: `React`, `Next.js`, `Node.js`, `Express`, `MySQL`
+- Live: https://petpass404.netlify.app/
 
-- Growing as a **full-stack engineer**
-- Strengthening backend and architecture skills
-- Building better frontend experiences
-- Applying AI tools responsibly in real development workflows
+## Background
 
+I completed the HackYourFuture Denmark full-stack web development program.
+Before moving into software development full-time, I spent several years in
+operations and leadership roles. That experience still shapes how I approach
+ownership, prioritization, quality, and team delivery.
 
 ## Contact
 
-- LinkedIn: https://linkedin.com/in/vadim-tofan
+- LinkedIn: https://www.linkedin.com/in/vadim-tofan
 - Portfolio: https://vadimtofancv.netlify.app/
 - GitHub: https://github.com/VadimTofan
-- Email: vad.tofan@gmail.com
+- Email: [vad.tofan@gmail.com](mailto:vad.tofan@gmail.com)
 
+---
 
+<sub>Code reviewed by Goose the cat.</sub>
 
-🐱 Code reviewed by Goose the cat
-
-<img src="https://github.com/user-attachments/assets/6c1bd4a9-0e45-4481-917f-4e4cb33b45f4" width="300" height="200">
+<img src="https://github.com/user-attachments/assets/6c1bd4a9-0e45-4481-917f-4e4cb33b45f4" width="260" alt="Goose the cat">
