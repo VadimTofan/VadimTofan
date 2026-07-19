@@ -10,8 +10,6 @@ Since July 2026, I have worked with **Vue.js**, **Python**, and **Tailwind CSS**
 at BRIGHT–DTU. My work also includes CI/CD workflows, automated testing, and
 maintaining test coverage.
 
-The work is covered by an NDA, so project and product details remain private.
-
 ## Core stack
 
 - Front end: `Vue.js`, `Tailwind CSS`, `JavaScript`, `React`, `Next.js`
