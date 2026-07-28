@@ -1,12 +1,87 @@
-# Hi, I'm Vadim Tofan
+<div align="center">
 
-Software Developer based in Copenhagen, working at **BRIGHT–DTU**. I build
-full-stack web applications with Vue.js and Python, focusing on maintainable
-code, automated testing, and reliable delivery.
+[![Animated introduction][typing-intro]][portfolio]
 
-## Core stack
+`CPH / DK` · `SOFTWARE DEVELOPER` · `SYSTEM STATUS: ONLINE`
 
-**Frontend**
+I build useful software, maintain things people rely on, and occasionally
+submit my code for feline review.
+
+[Portfolio][portfolio] · [LinkedIn][linkedin] · [Email][email]
+
+</div>
+
+## What I'm up to
+
+- Building Vue.js front ends and Python back ends at **BRIGHT–DTU**
+- Maintaining a World of Warcraft addon used by more than 36,000 players
+- Exploring design patterns, testing, and ways to make software easier to
+  understand
+
+## Things I've shipped
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🥗 High Protein Meal Planner</h3>
+      <p>
+        A cross-platform Flutter app for planning protein-focused meals,
+        published on both major app stores.
+      </p>
+      <p>
+        <a href="https://apps.apple.com/pl/app/high-protein-meal-planner/id6763793711">App Store</a>
+        ·
+        <a href="https://play.google.com/store/apps/details?id=com.vadimtofan.highproteinmealplanner">Google Play</a>
+      </p>
+      <sub>Flutter · Dart · Mobile</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3>⚔️ Mik's Scrolling Battle Text</h3>
+      <p>
+        A revived and actively maintained World of Warcraft combat-text addon
+        with more than 36,000 downloads.
+      </p>
+      <p>
+        <a href="https://www.curseforge.com/wow/addons/mikscrollingbattletext-midnight">View on CurseForge</a>
+      </p>
+      <sub>Lua · WoW API · Open-source maintenance</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🍽️ Meal-Sharing</h3>
+      <p>
+        A responsive full-stack platform for listing meals and managing
+        bookings.
+      </p>
+      <p>
+        <a href="https://mealsharing-vadim.netlify.app">Open the app</a>
+        ·
+        <a href="https://github.com/VadimTofan/mealsharing">View the code</a>
+      </p>
+      <sub>Next.js · Node.js · MySQL</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🐾 PetPass</h3>
+      <p>
+        A product-style web app for pet profiles, authentication, account
+        tools, and responsive management flows.
+      </p>
+      <p>
+        <a href="https://petpass404.netlify.app">Open the app</a>
+        ·
+        <a href="https://github.com/VadimTofan/PetPass">View the code</a>
+      </p>
+      <sub>React · Node.js · MySQL</sub>
+    </td>
+  </tr>
+</table>
+
+<details>
+<summary><strong>🧰 Open the toolbox</strong></summary>
+<br>
+
+**Frontend frameworks**
 
 ![Vue.js][vue-badge]
 ![Angular][angular-badge]
@@ -42,13 +117,58 @@ code, automated testing, and reliable delivery.
 ![PostgreSQL][postgresql-badge]
 ![MongoDB][mongodb-badge]
 
-**Delivery & Quality**
+**Delivery & quality**
 
 ![Git][git-badge]
 ![GitHub][github-stack-badge]
 ![CI/CD][cicd-badge]
 ![Automated testing][testing-badge]
 ![Test coverage][coverage-badge]
+
+</details>
+
+<details>
+<summary><strong>🗺️ How I got here</strong></summary>
+<br>
+
+I moved into software development after several years in operations and
+leadership, then completed HackYourFuture Denmark's intensive full-stack
+development program.
+
+Finishing the course was only the start. I spent nearly every spare hour
+building projects, strengthening my fundamentals, and learning more about
+design patterns, testing, and maintainable architecture.
+
+That mix of technical learning and leadership experience still shapes how I
+work today: understand the problem, take ownership, and leave the code easier
+for the next person to work with.
+
+</details>
+
+<details>
+<summary><strong>🐈 Open the final quality report</strong></summary>
+<br>
+
+**Review status:** Approved with minor requests for snacks.
+
+Code reviewed by Goose the cat.
+
+<img src="https://github.com/user-attachments/assets/6c1bd4a9-0e45-4481-917f-4e4cb33b45f4" width="260" alt="Goose the cat">
+
+</details>
+
+<div align="center">
+
+---
+
+More experiments and case files live at **[vadimtofan.dev][portfolio]**.
+
+</div>
+
+[typing-intro]: https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&duration=2600&pause=900&color=4FC08D&center=true&vCenter=true&width=720&lines=Vadim+Tofan+%2F%2F+Software+Developer;Building+useful+things+in+Copenhagen;Vue.js+%2B+Python+%2B+curiosity
+[portfolio]: https://vadimtofan.dev/
+[linkedin]: https://www.linkedin.com/in/vadim-tofan
+[email]: mailto:vad.tofan@gmail.com
 
 [vue-badge]: https://img.shields.io/badge/-Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white
 [angular-badge]: https://img.shields.io/badge/-Angular-DD0031?style=flat-square&logo=angular&logoColor=white
@@ -76,46 +196,3 @@ code, automated testing, and reliable delivery.
 [cicd-badge]: https://img.shields.io/badge/-CI%2FCD-2088FF?style=flat-square&logo=githubactions&logoColor=white
 [testing-badge]: https://img.shields.io/badge/-Automated_Testing-25A162?style=flat-square
 [coverage-badge]: https://img.shields.io/badge/-Test_Coverage-31C654?style=flat-square&logo=codecov&logoColor=white
-
-## Background
-
-I moved into software development after several years in operations and
-leadership, then completed HackYourFuture Denmark's intensive full-stack
-development program. Finishing the course was only the start. I spent nearly
-every spare hour building projects, strengthening my fundamentals, and
-learning more about design patterns, testing, and maintainable architecture.
-
-That mix of focused technical learning and leadership experience still shapes
-how I work today. I care about understanding the problem, taking ownership,
-and delivering software that is reliable and easy for a team to maintain.
-
-## GitHub activity
-
-[![GitHub contribution stats][contribution-stats]][contribution-stats-source]
-
-[contribution-stats]: https://streak-stats.demolab.com/?user=VadimTofan&hide_border=true&hide_current_streak=true&hide_longest_streak=true&card_width=240&card_height=170
-[contribution-stats-source]: https://github.com/DenverCoder1/github-readme-streak-stats
-
-## Let's connect
-
-Feel free to reach out or explore more of my work.
-
-[![Connect with me on LinkedIn][linkedin-badge]][linkedin]
-[![Visit my portfolio][portfolio-badge]][portfolio]
-[![Send me an email][email-badge]][email]
-[![Follow me on GitHub][github-badge]][github]
-
-[linkedin-badge]: https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white
-[portfolio-badge]: https://img.shields.io/badge/-Portfolio-181717?style=for-the-badge&logo=googlechrome&logoColor=white
-[email-badge]: https://img.shields.io/badge/-Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white
-[github-badge]: https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white
-[linkedin]: https://www.linkedin.com/in/vadim-tofan
-[portfolio]: https://vadimtofan.dev/
-[email]: mailto:vad.tofan@gmail.com
-[github]: https://github.com/VadimTofan
-
----
-
-Code reviewed by Goose the cat.
-
-<img src="https://github.com/user-attachments/assets/6c1bd4a9-0e45-4481-917f-4e4cb33b45f4" width="260" alt="Goose the cat">
