@@ -13,7 +13,7 @@ submit my code for feline review.
 
 ## What I'm up to
 
-- Building Vue.js front ends and Python back ends at **BRIGHT–DTU**
+- Developing full-stack applications with Vue.js and Python at **BRIGHT–DTU**
 - Maintaining a World of Warcraft addon used by more than 36,000 players
 - Exploring design patterns, testing, and ways to make software easier to
   understand
