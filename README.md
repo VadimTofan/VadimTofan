@@ -89,6 +89,13 @@ That mix of focused technical learning and leadership experience still shapes
 how I work today. I care about understanding the problem, taking ownership,
 and delivering software that is reliable and easy for a team to maintain.
 
+## GitHub activity
+
+[![GitHub contribution stats][contribution-stats]][contribution-stats-source]
+
+[contribution-stats]: https://streak-stats.demolab.com/?user=VadimTofan&hide_border=true&hide_current_streak=true&hide_longest_streak=true&card_width=240&card_height=170
+[contribution-stats-source]: https://github.com/DenverCoder1/github-readme-streak-stats
+
 ## Let's connect
 
 Feel free to reach out or explore more of my work.
