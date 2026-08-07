@@ -14,10 +14,9 @@ submit my code for feline review.
 ## What I'm up to
 
 - Developing full-stack applications with Vue.js and Python at **BRIGHT–DTU**
-- Mentor and session assistant at **HackYourFuture Denmark** since 2025
-- Maintaining multiple World of Warcraft addons with more than 38,000 downloads
-- Exploring design patterns, testing, and ways to make software easier to
-  understand
+- Mentor and session assistant at **[HackYourFuture Denmark][hackyourfuture]**
+  since 2025
+- Maintaining multiple World of Warcraft addons
 
 ## Things I've shipped
 
@@ -39,11 +38,21 @@ submit my code for feline review.
     <td width="50%" valign="top">
       <h3>⚔️ Mik's Scrolling Battle Text</h3>
       <p>
-        A revived and actively maintained World of Warcraft combat-text addon
-        with more than 36,000 downloads.
+        A revived and actively maintained World of Warcraft combat-text addon.
       </p>
       <p>
         <a href="https://www.curseforge.com/wow/addons/mikscrollingbattletext-midnight">View on CurseForge</a>
+      </p>
+      <p>
+        <a href="https://www.curseforge.com/wow/addons/mikscrollingbattletext-midnight">
+          <img
+            src="https://img.shields.io/curseforge/dt/1488089?style=flat-square&amp;label=downloads"
+            width="100"
+            height="20"
+            loading="lazy"
+            alt="Live CurseForge download count"
+          >
+        </a>
       </p>
       <sub>Lua · WoW API · Open-source maintenance</sub>
     </td>
@@ -170,6 +179,7 @@ More experiments and case files live at **[vadimtofan.dev][portfolio]**.
 [portfolio]: https://vadimtofan.dev/
 [linkedin]: https://www.linkedin.com/in/vadim-tofan
 [email]: mailto:vad.tofan@gmail.com
+[hackyourfuture]: https://www.hackyourfuture.dk/
 [vue-badge]: https://img.shields.io/badge/-Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white
 [angular-badge]: https://img.shields.io/badge/-Angular-DD0031?style=flat-square&logo=angular&logoColor=white
 [react-badge]: https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black
