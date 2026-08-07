@@ -14,7 +14,8 @@ submit my code for feline review.
 ## What I'm up to
 
 - Developing full-stack applications with Vue.js and Python at **BRIGHT–DTU**
-- Maintaining a World of Warcraft addon used by more than 36,000 players
+- Mentor and session assistant at **HackYourFuture Denmark** since 2025
+- Maintaining multiple World of Warcraft addons with more than 38,000 downloads
 - Exploring design patterns, testing, and ways to make software easier to
   understand
 
@@ -169,7 +170,6 @@ More experiments and case files live at **[vadimtofan.dev][portfolio]**.
 [portfolio]: https://vadimtofan.dev/
 [linkedin]: https://www.linkedin.com/in/vadim-tofan
 [email]: mailto:vad.tofan@gmail.com
-
 [vue-badge]: https://img.shields.io/badge/-Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white
 [angular-badge]: https://img.shields.io/badge/-Angular-DD0031?style=flat-square&logo=angular&logoColor=white
 [react-badge]: https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black
