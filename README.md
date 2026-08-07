@@ -166,7 +166,7 @@ More experiments and case files live at **[vadimtofan.dev][portfolio]**.
 
 </div>
 
-[typing-intro]: https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&duration=2600&pause=900&color=4FC08D&center=true&vCenter=true&width=720&lines=Vadim+Tofan+%2F%2F+Software+Developer;Building+useful+things+in+Copenhagen;Vue.js+%2B+Python+%2B+curiosity
+[typing-intro]: https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&duration=2600&pause=900&color=4FC08D&center=true&vCenter=true&width=720&lines=Vadim+Tofan+%2F%2F+Software+Developer;Building+useful+things;Vue.js+%2B+Python+%2B+curiosity
 [portfolio]: https://vadimtofan.dev/
 [linkedin]: https://www.linkedin.com/in/vadim-tofan
 [email]: mailto:vad.tofan@gmail.com
