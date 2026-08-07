@@ -18,6 +18,8 @@ submit my code for feline review.
   since 2025
 - Maintaining multiple World of Warcraft addons
 
+[![CurseForge downloads][curseforge-total-badge]][curseforge-profile]
+
 ## Things I've shipped
 
 <table>
@@ -42,17 +44,6 @@ submit my code for feline review.
       </p>
       <p>
         <a href="https://www.curseforge.com/wow/addons/mikscrollingbattletext-midnight">View on CurseForge</a>
-      </p>
-      <p>
-        <a href="https://www.curseforge.com/wow/addons/mikscrollingbattletext-midnight">
-          <img
-            src="https://img.shields.io/curseforge/dt/1488089?style=flat-square&amp;label=downloads"
-            width="100"
-            height="20"
-            loading="lazy"
-            alt="Live CurseForge download count"
-          >
-        </a>
       </p>
       <sub>Lua · WoW API · Open-source maintenance</sub>
     </td>
@@ -180,6 +171,10 @@ More experiments and case files live at **[vadimtofan.dev][portfolio]**.
 [linkedin]: https://www.linkedin.com/in/vadim-tofan
 [email]: mailto:vad.tofan@gmail.com
 [hackyourfuture]: https://www.hackyourfuture.dk/
+[curseforge-profile]: https://www.curseforge.com/members/mrgank/projects
+<!-- curseforge-downloads:start -->
+[curseforge-total-badge]: https://img.shields.io/badge/CurseForge_downloads-38k-F16436?style=flat-square
+<!-- curseforge-downloads:end -->
 [vue-badge]: https://img.shields.io/badge/-Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white
 [angular-badge]: https://img.shields.io/badge/-Angular-DD0031?style=flat-square&logo=angular&logoColor=white
 [react-badge]: https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black

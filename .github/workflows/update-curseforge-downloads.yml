@@ -1,0 +1,41 @@
+name: Update CurseForge downloads
+
+on:
+  schedule:
+    - cron: "17 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency: curseforge-downloads
+
+jobs:
+  update-downloads:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out the profile repository
+        uses: actions/checkout@v7
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: 24
+
+      - name: Update the combined download count
+        run: node scripts/update-curseforge-downloads.mjs
+
+      - name: Commit an updated count
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "README is already current."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "docs(profile): update CurseForge downloads"
+          git push
