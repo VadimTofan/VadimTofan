@@ -16,9 +16,9 @@ submit my code for feline review.
 - Developing full-stack applications with Vue.js and Python at **BRIGHT–DTU**
 - Mentor and session assistant at **[HackYourFuture Denmark][hackyourfuture]**
   since 2025
-- Maintaining multiple World of Warcraft addons
-
-[![CurseForge downloads][curseforge-total-badge]][curseforge-profile]
+- Maintaining multiple World of Warcraft addons —
+  [CurseForge][curseforge-profile] ·
+  <!-- curseforge-downloads:start -->38k downloads<!-- curseforge-downloads:end -->
 
 ## Things I've shipped
 
@@ -172,9 +172,6 @@ More experiments and case files live at **[vadimtofan.dev][portfolio]**.
 [email]: mailto:vad.tofan@gmail.com
 [hackyourfuture]: https://www.hackyourfuture.dk/
 [curseforge-profile]: https://www.curseforge.com/members/mrgank/projects
-<!-- curseforge-downloads:start -->
-[curseforge-total-badge]: https://img.shields.io/badge/CurseForge_downloads-38k-F16436?style=flat-square
-<!-- curseforge-downloads:end -->
 [vue-badge]: https://img.shields.io/badge/-Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white
 [angular-badge]: https://img.shields.io/badge/-Angular-DD0031?style=flat-square&logo=angular&logoColor=white
 [react-badge]: https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black

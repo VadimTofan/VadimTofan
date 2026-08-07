@@ -3,8 +3,8 @@ import { dirname, resolve } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 
 const PROJECT_IDS = ["1488089", "1492196", "1509727", "1521504"];
-const BADGE_START = "<!-- curseforge-downloads:start -->";
-const BADGE_END = "<!-- curseforge-downloads:end -->";
+const DOWNLOADS_START = "<!-- curseforge-downloads:start -->";
+const DOWNLOADS_END = "<!-- curseforge-downloads:end -->";
 
 export function parseDownloadCount(badge) {
   const countMatch = badge.match(
@@ -64,23 +64,19 @@ export function formatDownloadCount(downloads) {
   return `${millions}M`;
 }
 
-export function replaceDownloadBadge(readme, formattedDownloads) {
-  const startIndex = readme.indexOf(BADGE_START);
-  const endIndex = readme.indexOf(BADGE_END);
+export function replaceDownloadText(readme, formattedDownloads) {
+  const startIndex = readme.indexOf(DOWNLOADS_START);
+  const endIndex = readme.indexOf(DOWNLOADS_END);
 
   if (startIndex === -1 || endIndex === -1 || endIndex < startIndex) {
-    throw new Error("Could not find the CurseForge badge markers in README.md.");
+    throw new Error(
+      "Could not find the CurseForge download markers in README.md.",
+    );
   }
 
-  const badgeUrl =
-    "https://img.shields.io/badge/CurseForge_downloads-" +
-    `${formattedDownloads}-F16436?style=flat-square`;
-  const generatedBlock = [
-    BADGE_START,
-    `[curseforge-total-badge]: ${badgeUrl}`,
-    BADGE_END,
-  ].join("\n");
-  const blockEndIndex = endIndex + BADGE_END.length;
+  const generatedBlock =
+    `${DOWNLOADS_START}${formattedDownloads} downloads${DOWNLOADS_END}`;
+  const blockEndIndex = endIndex + DOWNLOADS_END.length;
 
   return (
     readme.slice(0, startIndex) +
@@ -95,7 +91,7 @@ async function updateReadme() {
   const readme = await readFile(readmePath, "utf8");
   const combinedDownloads = await fetchCombinedDownloads(PROJECT_IDS);
   const formattedDownloads = formatDownloadCount(combinedDownloads);
-  const updatedReadme = replaceDownloadBadge(readme, formattedDownloads);
+  const updatedReadme = replaceDownloadText(readme, formattedDownloads);
 
   if (updatedReadme === readme) {
     console.log(

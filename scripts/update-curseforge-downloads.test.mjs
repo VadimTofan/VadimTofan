@@ -5,7 +5,7 @@ import {
   fetchCombinedDownloads,
   formatDownloadCount,
   parseDownloadCount,
-  replaceDownloadBadge,
+  replaceDownloadText,
 } from "./update-curseforge-downloads.mjs";
 
 test("parses exact and abbreviated download counts from Shields badges", () => {
@@ -91,43 +91,39 @@ test("formats the combined count for a compact profile badge", () => {
   assert.equal(formattedDownloads, "38k");
 });
 
-test("replaces only the generated badge block in the README", () => {
+test("replaces only the generated inline download text in the README", () => {
   // Given
-  const expectedBadge =
-    "[curseforge-total-badge]: " +
-    "https://img.shields.io/badge/" +
-    "CurseForge_downloads-38k-F16436?style=flat-square";
   const readme = [
-    "Before",
+    "- Maintaining multiple World of Warcraft addons — ",
+    "[CurseForge][curseforge-profile] · ",
     "<!-- curseforge-downloads:start -->",
-    "[curseforge-total-badge]: old-value",
+    "37k downloads",
     "<!-- curseforge-downloads:end -->",
-    "After",
-  ].join("\n");
+  ].join("");
 
   // When
-  const updatedReadme = replaceDownloadBadge(readme, "38k");
+  const updatedReadme = replaceDownloadText(readme, "38k");
 
   // Then
   assert.equal(
     updatedReadme,
     [
-      "Before",
+      "- Maintaining multiple World of Warcraft addons — ",
+      "[CurseForge][curseforge-profile] · ",
       "<!-- curseforge-downloads:start -->",
-      expectedBadge,
+      "38k downloads",
       "<!-- curseforge-downloads:end -->",
-      "After",
-    ].join("\n"),
+    ].join(""),
   );
 });
 
-test("rejects a README without the generated badge markers", () => {
+test("rejects a README without the generated download markers", () => {
   // Given
   const readme = "README without generated badge markers";
 
   // When
-  const replaceMissingBlock = () => replaceDownloadBadge(readme, "38k");
+  const replaceMissingBlock = () => replaceDownloadText(readme, "38k");
 
   // Then
-  assert.throws(replaceMissingBlock, /badge markers/i);
+  assert.throws(replaceMissingBlock, /download markers/i);
 });
